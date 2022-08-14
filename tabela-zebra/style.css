@@ -1,0 +1,32 @@
+body {
+  background-color: #000;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 97vh;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  color: #fff;
+}
+.tabela {
+  background-color: #fff;
+}
+th {
+  width: 100px;
+  background-color: #999;
+  font-size: 12px;
+}
+tr:nth-child(odd) {
+  background-color: yellowgreen;
+  font-size: 12px;
+  text-align: center;
+  height: 20px;
+}
+tr {
+  font-size: 12px;
+  text-align: center;
+  height: 20px;
+}

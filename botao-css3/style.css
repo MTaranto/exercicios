@@ -1,0 +1,22 @@
+.container {
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
+  text-align: center;
+}
+  button {
+    background-color: darkgreen;
+    color: white;
+    font-size: 25px;
+    box-shadow: 2px 2px 3px #444;
+    text-shadow: 2px 2px 2px #222;
+    border-radius: 12px;
+    border: none;
+    padding: 10px 15px;
+    background: linear-gradient(darkgreen,rgb(40, 151, 40));
+  }
+  button:hover {
+    text-shadow: none;
+    background-color: forestgreen;
+  }
+  
